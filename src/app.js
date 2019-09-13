@@ -11,6 +11,8 @@ import './styles/styles.scss';
 
 const store = configureStore();
 
+console.log("Anmol");
+
 const jsx = (
     //Only prop we need to pass is store that you want to share with all of the components
     <Provider store={store}>
