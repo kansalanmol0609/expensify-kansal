@@ -1,0 +1,43 @@
+{
+  "name": "expensify",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Anmol Kansal",
+  "license": "MIT",
+  "scripts": {
+    "serve": "live-server public/",
+    "build": "webpack --watch",
+    "dev-server": "webpack-dev-server",
+    "build-babel": "babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch"
+  },
+  "dependencies": {
+    "babel-cli": "6.24.1",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-class-properties": "6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "6.24.1",
+    "css-loader": "^3.2.0",
+    "live-server": "^1.2.1",
+    "moment": "^2.24.0",
+    "node-sass": "^4.12.0",
+    "normalize.css": "^8.0.1",
+    "react": "^16.9.0",
+    "react-addons-shallow-compare": "^15.6.2",
+    "react-dates": "^21.0.1",
+    "react-dom": "^16.9.0",
+    "react-modal": "^3.9.1",
+    "react-redux": "^7.1.1",
+    "react-router-dom": "4.2.2",
+    "redux": "^4.0.4",
+    "sass-loader": "^7.2.0",
+    "style-loader": "^1.0.0",
+    "uuid": "^3.3.3",
+    "webpack": "^4.39.2",
+    "webpack-dev-server": "^3.8.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.7"
+  }
+}
