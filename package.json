@@ -1,6 +1,9 @@
 {
   "name": "expensify",
   "version": "1.0.0",
+  "engines": {
+    "node": "10.15.2"
+  },
   "main": "index.js",
   "author": "Anmol Kansal",
   "license": "MIT",
